@@ -1,0 +1,58 @@
+.Header {
+  height: 68px;
+  display: flex;
+  /* padding: 16px 80px; */
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.container {
+  height: 36px;
+  width: 100%;
+  display: flex;
+  padding: 0px 32px;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 0 0;
+}
+
+.Navigation {
+  height: 100%;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+li {
+  list-style: none;
+}
+
+.Navlink:hover {
+  text-decoration: underline;
+}
+
+.h1 {
+  color: var(--Gray-900, #111827);
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  /* 120% */
+  letter-spacing: -0.6px;
+}
+
+button {
+  display: flex;
+  padding: 6px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 12px;
+  background: var(--Gray-900, #111827);
+  color: aliceblue;
+}
