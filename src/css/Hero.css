@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: flex-start;
     align-self: stretch;
-    background-color: #FFF;
+    background: var(--Gray-50, #F9FAFB);
     /* background: var(--Gray-Default, #FFF); */
 }
 
@@ -126,5 +126,5 @@
     height: 320px;
     flex-shrink: 0;
     border: 8px solid var(--Gray-Default, #FFF);
-    background: url('./images/naruhina.jpg'), lightgray 50% / cover no-repeat;
+    background: url('../images/naruhina.jpg'), lightgray 50% / cover no-repeat;
 }

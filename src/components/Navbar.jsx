@@ -1,4 +1,4 @@
-import './Navbar.css'
+import '../css/Navbar.css'
 import { NavItems } from './data'
 
 function Navbar() {
@@ -11,7 +11,7 @@ function Navbar() {
                     {NavItems.map((item) => {
                         const { id, title, url } = item;
                         return (
-                            <li key={id}>
+                            <li key={id} className='nav-item'> 
                                 <a className="Navlink" href={url}>{title}</a>
                             </li>
                         )

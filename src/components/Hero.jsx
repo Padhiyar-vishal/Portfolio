@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import './Hero.css'
+import '../css/Hero.css'
 import {FaLocationDot,} from 'react-icons/fa6'
 
 function Hero() {
