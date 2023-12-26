@@ -1,3 +1,13 @@
+import JavaScript from '../images/icon-javscript.svg';
+import react from '../images/icon-react.svg';
+import express from '../images/icon-express.svg';
+import nodejs from '../images/icon-nodejs.svg';
+import sass from '../images/icon-sass.svg';
+import git from '../images/icon-git.svg';
+import PostgreSQL from '../images/icon-postgresql.svg';
+import Figma from '../images/icon-figma.svg';
+// import FaGithub from 'react-icons/fa6';
+
 export const NavItems = [
     {id: 1, title: 'About', url: '#'},
     {id: 2, title: 'Work', url: '#'},
@@ -21,4 +31,15 @@ export const aboutTextData = [
     { id:4, text: 'When I\'m not in full-on developer mode, you can find me hovering around on twitter or on indie hacker, witnessing the journey of early startups or enjoying some free time. You can follow me on Twitter where I share tech-related bites and build in public, or you can follow me on GitHub.'},
     { id:5, text: 'Finally, some quick bits about me.'},
     { id:6, text: 'One last thing, I\'m available for freelance work, so feel free to reach out and say hello! I promise I don\'t bite 😉'},
+]
+
+export const techData = [
+    { id:1, title: 'React.js', icon: react},
+    { id:2, title: 'JavaScript', icon: JavaScript},
+    { id:3, title: 'Node.js', icon: nodejs},
+    { id:4, title: 'Sass', icon: sass},
+    { id:5, title: 'PostgreSQL', icon: PostgreSQL},
+    { id:6, title: 'Git', icon: git},
+    { id:7, title: 'Figma', icon: Figma},
+    { id:8, title: 'Express.js', icon: express},
 ]

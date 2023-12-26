@@ -1,0 +1,23 @@
+.tech {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.tech-icon {
+    width: 64px;
+    height: 64px;
+}
+
+.tech-text {
+    color: var(--Gray-600, #4B5563);
+    /* Body1/Normal - Dektop */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+}
