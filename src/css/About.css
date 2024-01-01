@@ -77,16 +77,6 @@
     line-height: 24px; /* 150% */
 }
 
-/* .about-column1 {
-    display: flex;
-    min-width: 444px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 24px;
-    flex: 1 0 0;
-    align-self: stretch;
-} */
-
 .checklist  {
     display: flex;
     align-items: flex-start;

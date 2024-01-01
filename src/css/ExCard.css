@@ -1,0 +1,76 @@
+.ex-card {
+    display: flex;
+    width: 896px;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 12px;
+    background: var(--Gray-Default, #FFF);
+
+    /* Drop Shadow/md */
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.06), 0px 4px 3px 0px rgba(0, 0, 0, 0.07);
+}
+
+.ex-card-row {
+    align-items: flex-start;
+    gap: 48px;
+    align-self: stretch;
+}
+
+.ex-col1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    flex: 1 0 0;
+}
+
+#ex-logo {
+    width: 102px;
+    height: 28px;
+}
+
+.ex-col2 {
+    display: flex;
+    width: 384px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.ex-title {
+    color: var(--Gray-900, #111827);
+
+    /* Subtitle/Semi Bold - Desktop */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 140% */
+    align-self: stretch;
+}
+
+.ex-sub-col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+}
+
+.ex-col3 {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.ex-text {
+        color: var(--Gray-700, #374151);
+
+    /* Body2/Normal - All */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}

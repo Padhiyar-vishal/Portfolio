@@ -5,7 +5,7 @@ function Navbar() {
 
     return (
         <div className="Header">
-            <div className='container'>
+            <div className='h-container'>
                 <h1>Portfolio</h1>
                 <div className='Navigation'>
                     {NavItems.map((item) => {

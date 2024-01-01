@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     align-self: stretch;
-    background: var(--Gray-Default, #FFF);
+    background: var(--Gray-50, #F9FAFB);
 }
 
 .skill-container {
