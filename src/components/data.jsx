@@ -6,6 +6,7 @@ import sass from '../images/icon-sass.svg';
 import git from '../images/icon-git.svg';
 import PostgreSQL from '../images/icon-postgresql.svg';
 import Figma from '../images/icon-figma.svg';
+import odoo from '../images/odoo.png';
 // import FaGithub from 'react-icons/fa6';
 
 export const NavItems = [
@@ -43,3 +44,51 @@ export const techData = [
     { id:7, title: 'Figma', icon: Figma},
     { id:8, title: 'Express.js', icon: express},
 ]
+
+
+export const exCardData = [
+    {
+        id: 1,
+        title: 'Full Stack Developer',
+        date: 'Nov 2021 - Present',
+        logo: odoo,
+        content:
+        [
+            { id:1, text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'},
+            { id:2, text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'},
+            { id:3, text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'},
+            { id:4, text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'},
+        ]
+    },
+
+    {
+        id: 2,
+        title: 'Team Lead',
+        date: 'Dec 2015 - May 2017',
+        logo: odoo,
+        content:
+        [
+            { id:1, text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'},
+            { id:2, text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'},
+            { id:3, text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'},
+            { id:4, text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'},
+        ]
+    },
+
+    {
+        id: 3,
+        title: 'Sr. Frontend Developer',
+        date: 'Jul 2017 - Oct 2021',
+        logo: odoo,
+        content:
+        [
+            { id:1, text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'},
+            { id:2, text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'},
+            { id:3, text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'},
+            { id:4, text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'},
+        ]
+    }
+
+
+
+];
