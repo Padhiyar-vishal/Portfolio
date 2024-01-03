@@ -1,0 +1,69 @@
+.project {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+    border-radius: 12px;
+    background: var(--Gray-Default, #FFF);
+    /* Drop Shadow/md */
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.06), 0px 4px 3px 0px rgba(0, 0, 0, 0.07);
+}
+
+.pro-col1 {
+    display: flex;
+    padding: 48px;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 12px 0px 0px 12px;
+    border-right: 1px solid var(--Gray-100, #F3F4F6);
+    background: var(--Gray-50, #F9FAFB);
+}
+
+#pro-img {
+    border-radius: 12px;
+    background: lightgray 50% / cover no-repeat;
+
+    /* Drop Shadow/lg */
+    box-shadow: 0px 10px 8px 0px rgba(0, 0, 0, 0.04), 0px 4px 3px 0px rgba(0, 0, 0, 0.10);
+}
+
+.pro-col2 {
+    display: flex;
+    padding: 48px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 12px 0px 0px 12px;
+    background: var(--Gray-50, #F9FAFB);
+}
+
+.pro-title {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    align-self: stretch;
+    overflow: hidden;
+    color: var(--Gray-900, #111827);
+    text-overflow: ellipsis;
+
+    /* Subtitle/Semi Bold - Desktop */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 140% */
+}
+
+.pro-description {
+    color: var(--Gray-600, #4B5563);
+
+    /* Body2/Normal - All */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}

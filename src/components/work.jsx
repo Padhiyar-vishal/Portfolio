@@ -1,4 +1,5 @@
 import '../css/work.css';
+import Project from './Project';
 
 function work() {
 
@@ -15,7 +16,8 @@ function work() {
                     <span className="skill-text2">Some of the noteworthy projects I have built:</span>
                 </div>
             </div>
-            <div className="work-row"></div>
+           {/* component to import */}
+           <Project />
         </div>
     </div>
   )
