@@ -89,6 +89,25 @@ export const exCardData = [
         ]
     }
 
+];
 
-
+export const projectData = [
+    {
+        id: 1,
+        title: 'Fiskil',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.',
+        image: odoo,
+    },
+    {
+        id: 2,
+        title: 'Fiskil',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.',
+        image: odoo,
+    },
+    {
+        id: 3,
+        title: 'Fiskil',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.',
+        image: odoo,
+    },
 ];
