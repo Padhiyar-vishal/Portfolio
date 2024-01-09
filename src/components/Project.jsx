@@ -4,7 +4,8 @@ import { projectData } from './data';
 function Project() 
 {
   return (
-    <>{projectData.map((project) => {
+    <>
+    {projectData.map((project) => {
         const { id, title, description, image } = project;
         return (
             <div className="project" key={id}>
