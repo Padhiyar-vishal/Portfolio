@@ -15,6 +15,32 @@ function Project()
                 <div className="pro-col2">
                     <span className="pro-title">{title}</span>
                     <span className="pro-description">{description}</span>
+                    <div className="project-tech">
+                        <div className="tag">
+                            <span className="tag-text">React</span>
+                        </div>
+                        <div className="tag">
+                            <span className="tag-text">React</span>
+                        </div>
+                        <div className="tag">
+                            <span className="tag-text">React</span>
+                        </div>
+                        <div className="tag">
+                            <span className="tag-text">React</span>
+                        </div>
+                        <div className="tag">
+                            <span className="tag-text">React</span>
+                        </div>
+                        <div className="tag">
+                            <span className="tag-text">React</span>
+                        </div>
+                        <div className="tag">
+                            <span className="tag-text">React</span>
+                        </div>
+                        <div className="tag">
+                            <span className="tag-text">React</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         )
