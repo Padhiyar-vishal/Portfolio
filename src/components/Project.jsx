@@ -41,6 +41,11 @@ function Project()
                             <span className="tag-text">React</span>
                         </div>
                     </div>
+                    <div className="action">
+                        <div className="action-icon-button">
+                            
+                        </div>
+                    </div>
                 </div>
             </div>
         )
