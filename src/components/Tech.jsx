@@ -10,7 +10,6 @@ const Tech = () => (
                 <span className="tech-text">{title}</span>
             </div>
         )
-    }
-)
+    })
 )
 export default Tech
