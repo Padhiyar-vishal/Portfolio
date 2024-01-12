@@ -97,17 +97,20 @@ export const projectData = [
         title: 'Fiskil',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.',
         image: odoo,
+        tags : ['React', 'Node', 'Express', 'PostgreSQL', 'Sass', 'Git', 'Figma']
     },
     {
         id: 2,
         title: 'Fiskil',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.',
         image: odoo,
+        tags : ['React', 'Node', 'Express', 'PostgreSQL', 'Sass', 'Git', 'Figma', 'python', 'django']
     },
     {
         id: 3,
         title: 'Fiskil',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.',
         image: odoo,
+        tags : ['React', 'Node', 'Express', 'PostgreSQL', 'Sass', 'Git', 'Figma', 'python', 'django']
     },
 ];

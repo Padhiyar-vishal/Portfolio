@@ -16,7 +16,6 @@ function work() {
                     <span className="skill-text2">Some of the noteworthy projects I have built:</span>
                 </div>
             </div>
-           {/* component to import */}
            <Project />
         </div>
     </div>
